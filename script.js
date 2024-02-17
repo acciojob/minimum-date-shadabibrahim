@@ -1,5 +1,8 @@
 function minDate(dates) {
   //write you code here
+  let dateCopy = [...dates];
+	dateCopy.sort();
+	return dateCopy[0];
 }
 
 // Do not change the code
@@ -38,3 +41,4 @@ var dates = [
 ];
 
 alert(minDate(dates));
+
